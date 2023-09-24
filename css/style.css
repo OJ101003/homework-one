@@ -42,7 +42,7 @@ ul li {
   padding-top: 5px;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
@@ -111,44 +111,26 @@ ul{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.otherlink {
-  background-color: black;
-  border-radius: 15px;
-  margin: 30px 0;
-  padding: 15px 50px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
+.pizza:hover {
+  background-repeat: none;
+  animation-name: example;
+  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 
-.otherlink a{
-    color: #F8F0E3;
-    text-decoration: none;
-}
-
-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:black;
-
-}
-nav li {
-  float: left;
-  padding: 0;
-}
-
-nav li a{
-  text-align: center;
-  color:white;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.pizza{
-  transition: background-image 30s;
-}
-.pizza:hover{
-  
-  background-image: url("../pizza.jpg")
+@keyframes example {
+  from {
+    background-image: none;
+  }
+  to {
+    background-image: url("../pizza.jpg");
+  }
+  from {
+    color: #242126;
+  }
+  to {
+    color: white;
+  }
 }
