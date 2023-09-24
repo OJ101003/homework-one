@@ -8,6 +8,11 @@ body {
   color: #19747e;
 }
 
+img{
+    min-width: 250px;
+    width: 85%;
+}
+
 ul li {
   margin-top: 7px;
   padding-top: 5px;
@@ -27,7 +32,10 @@ iframe {
   height: 300px;
   margin: 5px;
 }
+.box h1{
+    width: 70%;
 
+}
 .listarea {
   background-color: #a9d6e5;
   border-radius: 15px;
@@ -35,8 +43,21 @@ iframe {
   padding: 15px 50px;
 }
 
+.listarea ul{
+    padding: 0;
+    list-style: none;
+}
+
+.listitems{
+    /* display: flex;
+    justify-content: center; */
+}
+
 .listarea li {
+    padding: 15px;
   font-size: 25px;
+  background-color: #72c2dd;
+  border-radius: 10px;
 }
 
 .videoarea {
@@ -53,11 +74,6 @@ iframe {
 
 .images img {
   padding-bottom: 20px;
-}
-
-.images img {
-  min-width: 300px;
-  width: 85%;
 }
 
 .catbox {
