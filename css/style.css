@@ -1,16 +1,22 @@
 body {
-  background-color: #d1e8e2;
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
-
   font-size: 20px;
-  color: #19747e;
+  color: #40413c;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background: white;
+}
+body::-webkit-scrollbar-thumb {
+  background: lightblue;
+  height:30px;
 }
 
 .ParallaxVideo {
   padding-bottom: 50px;
   padding-top: 50px;
-  
 }
 .ParallaxVideo video {
   min-width: 100%;
@@ -18,7 +24,7 @@ body {
   top: 0;
   z-index: -999;
   filter: blur(5px);
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 img {
@@ -31,10 +37,6 @@ ul li {
   padding-top: 5px;
 }
 
-iframe {
-  border-style: none;
-}
-
 .parent {
   display: flex;
   justify-content: center;
@@ -45,14 +47,15 @@ iframe {
   height: 300px;
   margin: 5px;
 }
-.h1div{
-    background-color: #72c2dd;
-    border-radius: 15px;
-    margin: 30px 0;
-    padding: 15px 50px;
+.h1div {
+  background-color: #b8b7cdd0;
+  border-radius: 15px;
+  margin: 30px 0;
+  padding: 15px 50px;
 }
 .listarea {
-  background-color: #a9d6e5;
+  color: #f8f0e3;
+  background-color: #242126d0;
   border-radius: 15px;
   margin: 30px 0;
   padding: 15px 50px;
@@ -63,16 +66,17 @@ iframe {
   list-style: none;
 }
 
-
 .listarea li {
+  color: #242126;
   padding: 15px;
   font-size: 25px;
-  background-color: #72c2dd;
+  background-color: #aca8bb;
   border-radius: 10px;
 }
 
 .videoarea {
-  background-color: #cbdadf;
+  color: #d9d2bb;
+  background-color: #223f71d0;
   border-radius: 15px;
   margin: 30px 0;
   padding: 15px 50px;
@@ -88,7 +92,8 @@ iframe {
 }
 
 .catbox {
-  background-color: #e8d1d7;
+  background-color: #A09175D0;
+  color: #242126;
   border-radius: 15px;
   margin: 30px 0;
   padding: 15px 50px;
