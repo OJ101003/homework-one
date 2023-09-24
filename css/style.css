@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
@@ -118,6 +121,7 @@ ul {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
+
 }
 
 @keyframes example {
@@ -133,4 +137,37 @@ ul {
   to {
     color: white;
   }
+}
+
+.otherlink {
+  background-color: black;
+  border-radius: 15px;
+  margin: 30px 0;
+  padding: 15px 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.otherlink a {
+  color: #f8f0e3;
+  text-decoration: none;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  overflow: hidden;
+  background-color: black;
+}
+nav li {
+  float: left;
+  padding: 0;
+}
+
+nav li a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
