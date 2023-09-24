@@ -144,3 +144,11 @@ nav li a{
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.pizza{
+  transition: background-image 30s;
+}
+.pizza:hover{
+  
+  background-image: url("../pizza.jpg")
+}
