@@ -115,7 +115,7 @@ ul {
 }
 
 .pizza:hover {
-  background-repeat: none;
+  background-repeat: no-repeat;
   animation-name: example;
   animation-delay: 2s;
   animation-duration: 4s;
