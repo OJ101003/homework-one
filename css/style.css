@@ -17,6 +17,8 @@ body::-webkit-scrollbar-thumb {
 .ParallaxVideo {
   padding-bottom: 50px;
   padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .ParallaxVideo video {
   min-width: 100%;
@@ -34,6 +36,9 @@ img {
 
 ul li {
   margin-top: 7px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 5px;
 }
 
