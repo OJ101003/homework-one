@@ -5,6 +5,7 @@ body {
   width: 50%;
   padding: 10px;
   font-size: 20px;
+  color: #19747e;
 }
 
 ul li {
@@ -12,8 +13,8 @@ ul li {
   padding-top: 5px;
 }
 
-iframe{
-    border-style: none;
+iframe {
+  border-style: none;
 }
 
 .parent {
@@ -22,9 +23,8 @@ iframe{
 }
 
 .box {
-  /* width: 700px;
-  height: 300px; */
-  width: 75%;
+  width: 700px;
+  height: 300px;
   margin: 5px;
 }
 
@@ -40,7 +40,6 @@ iframe{
 }
 
 .videoarea {
-  color: #19747e;
   background-color: #cbdadf;
   border-radius: 15px;
   margin: 30px 0;
@@ -48,12 +47,22 @@ iframe{
   font-size: 25px;
 }
 
-.images{
-    text-align: center;
+.images {
+  text-align: center;
 }
 
 .images img {
-    min-width: 300px;
-    width: 70%;
+  padding-bottom: 20px;
+}
 
+.images img {
+  min-width: 300px;
+  width: 85%;
+}
+
+.catbox {
+  background-color: #E8D1D7;
+  border-radius: 15px;
+  margin: 30px 0;
+  padding: 15px 50px;
 }
