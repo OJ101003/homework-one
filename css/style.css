@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   background: lightblue;
-  height:30px;
+  height: 30px;
 }
 
 .ParallaxVideo {
@@ -42,9 +42,14 @@ ul li {
   padding-top: 5px;
 }
 
+ul{
+  list-style-type: none;
+}
+
 .parent {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -58,6 +63,7 @@ ul li {
   margin: 30px 0;
   padding: 15px 50px;
 }
+
 .listarea {
   color: #f8f0e3;
   background-color: #242126d0;
@@ -97,9 +103,44 @@ ul li {
 }
 
 .catbox {
-  background-color: #A09175D0;
+  background-color: #a09175d0;
   color: #242126;
   border-radius: 15px;
   margin: 30px 0;
   padding: 15px 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.otherlink {
+  background-color: black;
+  border-radius: 15px;
+  margin: 30px 0;
+  padding: 15px 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.otherlink a{
+    color: #F8F0E3;
+    text-decoration: none;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+
+}
+nav li {
+  float: left;
+  padding: 0;
+}
+
+nav li a{
+  text-align: center;
+  color:white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
